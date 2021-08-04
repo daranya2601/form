@@ -21,14 +21,20 @@
         <label for="lname" id="lname"></label>
         <input type="text" placeholder="Secondname" optional><br><br>
 
-        <label for="PhoneNumber/email id" id="PhoneNumber/email id"></label>
-        <input type="text/number" placeholder="PhoneNumber/email id" required><br><br>
+        <label for="email id" id="email id"></label>
+        <input type="email" placeholder="email id" required><br><br>
+
+        <label for="PhoneNumber" id="PhoneNumber"></label>
+        <input type="number" placeholder="PhoneNumber" required><br><br>
 
         <label for="newpassword" id="pass"></label>
         <input type="password" placeholder="set password" required><br>
-
+        
         <p>Date of birth ?</p>
-        <select name="date" required>
+        <input type="date" placeholder="DD MM YYYY" required><br>
+
+
+        <!-- <select name="date" required>
             <label for="date"></label>
             <option>1</option>
             <option>2</option>
@@ -95,22 +101,22 @@
             <option>2013</option>
             <option>2014</option>
             <option>2015</option>
-            <option>2016</option>
+            <option>2016</option> -->
 
         </select><br><br>
         <label for="gender" required>Gender </label><br><br>
             <div id="gender" class="genderbutton">
             <div id="Female" class="genderbutton">
+                <input type="radio" name="gender" />
             <label>Female</label>
-            <input type="radio" name="gender" />
             </div>
             <div id="Male" class="genderbutton">
-                <label>Male</label>
                 <input type="radio" name="gender" />
+                <label>Male</label>
             </div>
             <div id="Custom" class="genderbutton">
-                <label>Custom</label>
                 <input type="radio" name="gender" />
+                <label>Custom</label>
             </div>
         </div>
         <h3></h3>
